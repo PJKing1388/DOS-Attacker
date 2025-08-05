@@ -8,7 +8,7 @@ use std::io;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    println!("[!] Advanced Load Tester (Legal Use Only) [!]");
+    println!("DOS-Attacker (User assumes all legal responsibility for using this tool) / داس اتکر (تمامی عواقب قانونی استفاده از این ابراز بر عهده کاربر می باشد)");
 
     println!("Enter target URL (including http:// or https://):");
     let mut target_url = String::new();
