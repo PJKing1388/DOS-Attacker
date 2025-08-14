@@ -6,7 +6,6 @@ use tokio::time;
 use rand::Rng;
 use std::io;
 
-#[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("DOS-Attacker (User assumes all legal responsibility for using this tool) / داس اتکر (تمامی عواقب قانونی استفاده از این ابراز بر عهده کاربر می باشد)");
 
